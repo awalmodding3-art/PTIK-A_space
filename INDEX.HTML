@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PTIK-A Space | Jadwal & Galeri Kegiatan PTIK A 2025</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Navigasi -->
+  <header class="navbar">
+    <div class="container nav-content">
+      <a href="#" class="brand">
+        <span class="brand-badge">PTIK-A</span>
+        <span>PTIK-A Space</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <nav class="nav-links" id="navLinks">
+        <a href="#beranda">Beranda</a>
+        <a href="#jadwal">Jadwal Kuliah</a>
+        <a href="#galeri">Galeri Kegiatan</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section (Menampilkan Latar Foto Kelas) -->
+    <section id="beranda" class="hero">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <span class="pill">Kelas PTIK A • Angkatan 2025</span>
+          <h1>Ruang Digital & Arsip Kebersamaan PTIK A 2025</h1>
+          <p>
+            Akses jadwal perkuliahan lengkap dengan kode mata kuliah, ruang lab,
+            dosen pengampu, serta dokumentasi kegiatan kelas dalam satu halaman.
+          </p>
+          <div class="hero-actions">
+            <a href="#jadwal" class="btn btn-primary">Lihat Jadwal</a>
+            <a href="#galeri" class="btn btn-glass">Galeri Foto</a>
+          </div>
+        </div>
+
+        <div class="stats-bento">
+          <div class="stat-card">
+            <span class="stat-number">8</span>
+            <span class="stat-label">Mata Kuliah</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-number">5</span>
+            <span class="stat-label">Hari Aktif</span>
+          </div>
+          <div class="stat-card accent-card">
+            <span class="stat-number">22 SKS</span>
+            <span class="stat-label">Total Beban Studi Semester Ini</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Jadwal Kuliah -->
+    <section id="jadwal" class="section">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-tag">Akademik • PTIK A 2025</span>
+            <h2>Jadwal Kuliah Mingguan</h2>
+          </div>
+          <p class="section-desc">Ketuk nama hari untuk menyaring jadwal kuliah secara cepat.</p>
+        </div>
+
+        <!-- Filter Hari -->
+        <div class="day-tabs" role="tablist">
+          <button class="tab-btn active" data-day="semua">Semua (8)</button>
+          <button class="tab-btn" data-day="Senin">Senin</button>
+          <button class="tab-btn" data-day="Selasa">Selasa</button>
+          <button class="tab-btn" data-day="Rabu">Rabu</button>
+          <button class="tab-btn" data-day="Kamis">Kamis</button>
+          <button class="tab-btn" data-day="Jumat">Jumat</button>
+        </div>
+
+        <div class="schedule-grid" id="scheduleGrid">
+          <!-- SENIN -->
+          <article class="schedule-card" data-day="Senin">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Senin</span>
+                <span class="session-badge">Jam I–III</span>
+              </div>
+              <span class="sks-badge">3 SKS</span>
+            </div>
+            <span class="course-code">21B33C304</span>
+            <h3>Jaringan Komputer</h3>
+            <div class="lecturers">
+              <p>1. Dr. Ir. Muliadi, S.Pd., M.T.</p>
+              <p>2. Dr. Haekal Febriansyah Ramadhan, S.T., M.T., M.Pd.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 07.30 – 10.05 WITA</span>
+              <span>📍 Lab Jaringan</span>
+            </div>
+          </article>
+
+          <!-- SELASA -->
+          <article class="schedule-card" data-day="Selasa">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Selasa</span>
+                <span class="session-badge">Jam IV–VI</span>
+              </div>
+              <span class="sks-badge">3 SKS</span>
+            </div>
+            <span class="course-code">21B33C307</span>
+            <h3>Keamanan Komputer</h3>
+            <div class="lecturers">
+              <p>1. Ir. Wahyu Hidayat M, S.Pd., M.Pd.</p>
+              <p>2. Aulyah Zakilah Ifani, M.Kom.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 10.05 – 12.40 WITA</span>
+              <span>📍 Lab ICT 4</span>
+            </div>
+          </article>
+
+          <article class="schedule-card" data-day="Selasa">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Selasa</span>
+                <span class="session-badge">Jam IX–XI</span>
+              </div>
+              <span class="sks-badge">3 SKS</span>
+            </div>
+            <span class="course-code">21B33C303</span>
+            <h3>Struktur Data</h3>
+            <div class="lecturers">
+              <p>1. Alifya NFH, S.Pd., M.Pd.</p>
+              <p>2. Muh. Akbar, S.Pd., M.Pd.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 14.50 – 17.30 WITA</span>
+              <span>📍 AE 104</span>
+            </div>
+          </article>
+
+          <!-- RABU -->
+          <article class="schedule-card" data-day="Rabu">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Rabu</span>
+                <span class="session-badge">Jam VII–VIII</span>
+              </div>
+              <span class="sks-badge">2 SKS</span>
+            </div>
+            <span class="course-code">21B33C305</span>
+            <h3>Inovasi Teknologi</h3>
+            <div class="lecturers">
+              <p>1. Ninik Rahayu Ashadi, S.Pd., M.Pd.</p>
+              <p>2. Nurmayanti, S.Pd., M.Pd.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 13.10 – 14.50 WITA</span>
+              <span>📍 Lab Pemrograman</span>
+            </div>
+          </article>
+
+          <article class="schedule-card" data-day="Rabu">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Rabu</span>
+                <span class="session-badge">Jam IX–XI</span>
+              </div>
+              <span class="sks-badge">3 SKS</span>
+            </div>
+            <span class="course-code">21B33C306</span>
+            <h3>Kecerdasan Buatan</h3>
+            <div class="lecturers">
+              <p>1. Dyah Darma Andayani, S.T., M.Tel.Eng.</p>
+              <p>2. Mudarris, S.Pd., M.Eng.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 14.50 – 17.30 WITA</span>
+              <span>📍 Lab Sistem Cerdas</span>
+            </div>
+          </article>
+
+          <!-- KAMIS -->
+          <article class="schedule-card" data-day="Kamis">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Kamis</span>
+                <span class="session-badge">Jam I–II</span>
+              </div>
+              <span class="sks-badge">2 SKS</span>
+            </div>
+            <span class="course-code">21B33C301</span>
+            <h3>Profesi Kependidikan</h3>
+            <div class="lecturers">
+              <p>1. Dwi Rezky Anandari Sulaiman, S.Psi., M.Si.</p>
+              <p>2. Ainun Nida Rifqi, S.Psi., M.Psi.T.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 07.30 – 09.10 WITA</span>
+              <span>📍 AE 104</span>
+            </div>
+          </article>
+
+          <article class="schedule-card" data-day="Kamis">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Kamis</span>
+                <span class="session-badge">Jam VII–IX</span>
+              </div>
+              <span class="sks-badge">3 SKS</span>
+            </div>
+            <span class="course-code">21B33C302</span>
+            <h3>Strategi Pembelajaran</h3>
+            <div class="lecturers">
+              <p>1. Prof. Dr. H. Syahrul, M.Pd.</p>
+              <p>2. Shabrina Syntha Dewi, S.Pd., M.Pd.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 13.10 – 15.40 WITA</span>
+              <span>📍 Pasca 1</span>
+            </div>
+          </article>
+
+          <!-- JUMAT -->
+          <article class="schedule-card" data-day="Jumat">
+            <div class="card-top">
+              <div class="badge-group">
+                <span class="day-badge">Jumat</span>
+                <span class="session-badge">Jam IX–XI</span>
+              </div>
+              <span class="sks-badge">3 SKS</span>
+            </div>
+            <span class="course-code">21B33C308</span>
+            <h3>Pemrograman Web</h3>
+            <div class="lecturers">
+              <p>1. M. Syahid Nur Wahid, M.Pd.</p>
+              <p>2. Muhammad Fadhil Supriadi, S.Pd., M.Pd.</p>
+            </div>
+            <div class="card-meta">
+              <span>🕒 14.50 – 17.30 WITA</span>
+              <span>📍 Lab Pemrograman</span>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Galeri Foto Kegiatan -->
+    <section id="galeri" class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <span class="section-tag">Dokumentasi</span>
+            <h2>Galeri Kegiatan PTIK A 2025</h2>
+          </div>
+          <p class="section-desc">Ketuk foto untuk melihat tampilan penuh dokumentasi kegiatan.</p>
+        </div>
+
+        <div class="gallery-grid">
+          <!-- Foto Studio Utama Kelas -->
+          <figure class="photo-card" data-title="Foto Studio Angkatan PTIK A 2025" data-date="Semester Ganjil 2025/2026" data-desc="Dokumentasi resmi kebersamaan mahasiswa PTIK A 2025 mengenakan baju PDH jurusan dengan tiga pose kompak.">
+            <img
+              src="img/image_206c6e.jpg"
+              alt="Foto Studio Kelas PTIK A 2025"
+              loading="lazy"
+            />
+            <figcaption class="photo-overlay">
+              <span class="photo-date">Foto Utama Kelas</span>
+              <h3>Foto Studio Angkatan PTIK A 2025</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="photo-card" data-title="Praktikum Lab Pemrograman" data-date="Oktober 2026" data-desc="Dokumentasi sesi praktikum pemrograman web dan struktur data bersama asisten lab.">
+            <img
+              src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'><defs><linearGradient id='g2' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%230d9488'/><stop offset='100%' stop-color='%2310b981'/></linearGradient></defs><rect width='800' height='600' fill='url(%23g2)'/><circle cx='160' cy='480' r='110' fill='rgba(255,255,255,0.12)'/><text x='50%' y='48%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-size='32' font-weight='bold'>Foto Kegiatan 2</text><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' fill='rgba(255,255,255,0.85)' font-family='sans-serif' font-size='18'>Ganti src dengan img/praktikum.jpg</text></svg>"
+              alt="Praktikum Lab Pemrograman"
+              loading="lazy"
+            />
+            <figcaption class="photo-overlay">
+              <span class="photo-date">Okt 2026</span>
+              <h3>Praktikum Lab Pemrograman</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="photo-card" data-title="Bakti Sosial & Kebersamaan" data-date="November 2026" data-desc="Program berbagi bersama warga sekitar kampus yang diinisiasi oleh pengurus kelas PTIK A 2025.">
+            <img
+              src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'><defs><linearGradient id='g3' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%23f59e0b'/><stop offset='100%' stop-color='%23ea580c'/></linearGradient></defs><rect width='800' height='600' fill='url(%23g3)'/><circle cx='620' cy='460' r='100' fill='rgba(255,255,255,0.15)'/><text x='50%' y='48%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-size='32' font-weight='bold'>Foto Kegiatan 3</text><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' fill='rgba(255,255,255,0.9)' font-family='sans-serif' font-size='18'>Ganti src dengan img/baksos.jpg</text></svg>"
+              alt="Bakti Sosial Kelas"
+              loading="lazy"
+            />
+            <figcaption class="photo-overlay">
+              <span class="photo-date">Nov 2026</span>
+              <h3>Bakti Sosial & Kebersamaan</h3>
+            </figcaption>
+          </figure>
+
+          <figure class="photo-card" data-title="Workshop & Seminar Teknologi" data-date="November 2026" data-desc="Keikutsertaan mahasiswa PTIK A 2025 dalam seminar inovasi pendidikan dan kecerdasan buatan.">
+            <img
+              src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='800' height='600' viewBox='0 0 800 600'><defs><linearGradient id='g4' x1='0' y1='0' x2='1' y2='1'><stop offset='0%' stop-color='%236366f1'/><stop offset='100%' stop-color='%238b5cf6'/></linearGradient></defs><rect width='800' height='600' fill='url(%23g4)'/><circle cx='180' cy='140' r='95' fill='rgba(255,255,255,0.12)'/><text x='50%' y='48%' dominant-baseline='middle' text-anchor='middle' fill='white' font-family='sans-serif' font-size='32' font-weight='bold'>Foto Kegiatan 4</text><text x='50%' y='56%' dominant-baseline='middle' text-anchor='middle' fill='rgba(255,255,255,0.85)' font-family='sans-serif' font-size='18'>Ganti src dengan img/seminar.jpg</text></svg>"
+              alt="Workshop & Seminar Teknologi"
+              loading="lazy"
+            />
+            <figcaption class="photo-overlay">
+              <span class="photo-date">Nov 2026</span>
+              <h3>Workshop & Seminar Teknologi</h3>
+            </figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Lightbox Modal Preview Foto -->
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <div class="lightbox-dialog">
+      <button class="lightbox-close" id="lightboxClose" aria-label="Tutup">&times;</button>
+      <img id="lightboxImg" src="" alt="Preview Foto Kegiatan" />
+      <div class="lightbox-caption">
+        <span id="lightboxDate" class="photo-date"></span>
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p><strong>PTIK-A Space</strong> • Portal Informasi & Dokumentasi PTIK A 2025</p>
+      <p class="footer-note">Diperbarui oleh Pengurus Kelas PTIK A</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
